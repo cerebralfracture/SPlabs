@@ -1,0 +1,4 @@
+FROM alpine
+COPY tvslab1.sh .
+RUN chmod ugo+x tvslab1.sh
+CMD sh tvslab1.sh
